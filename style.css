@@ -1,0 +1,557 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #fff728;
+}
+
+.max990px {
+    max-width: 990px;
+    margin: auto;
+}
+
+.top img {
+  position: relative;
+  width: 100%;
+}
+
+#menu {
+    position: sticky;
+    top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px; 
+    list-style: none;
+    padding: 0;
+}
+
+#menu li {
+    flex: auto;
+}
+
+#menu a img {
+    width: 100%; 
+    max-width: 225px;
+    height: auto;                                                                                                                                                                                                                                                                               
+}
+
+#menu a img:hover {
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+
+#content1 {
+    background: url(img/Background\ Slide\ 2\ versi\ 2.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    width: 100%;
+    height: 1310vh;
+    max-width: 1550px;
+    max-height: 2150px;
+    margin-top: 20px;
+}
+
+.container1 {
+    padding-top: 150px;
+}
+
+.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    max-width: 700px;
+    min-width: 400px;
+    width: 75%;
+}
+
+.slider-container1 {
+    position: relative;
+    margin-top: 60px;
+}
+
+.kamar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
+    max-width: 700px;
+    min-width: 350px;
+    width: 65%;
+}
+
+.butkiri, .butkanan {
+    position: absolute;
+    display: block;
+    width: 120%;
+    max-width: 45px;
+}
+
+.butkanan {
+    left: 870px;
+    top: 230px;
+}
+
+.butkiri {
+    right: 870px;
+    top: 230px;
+}
+
+.slidershow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
+    width: 100%;
+    max-width: 273px;
+}
+
+.jajargenjang {
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 300px;
+    max-width: 800px;
+    background-color: white;
+    transform: skew(-4deg);
+}
+
+.jajargenjang p {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 60px 62px 60px 62px;
+    line-height: 45px;
+}
+
+.jgbutton ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.jgbutton1, .jgbutton2 {
+    margin-top: 100px;
+    width: 100%;
+    height: 270px;
+    max-width: 400px;
+    background-color: white;
+    transform: skew(-4deg);
+}
+
+.jgbutton1 {
+    border-right: 2px groove black;
+}
+
+.jgbutton p {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 23px;
+    line-height: 34px;
+    padding: 45px 27px 50px;
+}
+
+.jgbutton ul li a {
+    width: 120%;
+    max-width: 193px;
+}
+
+.jgbutton ul li a img:hover {
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+#content2 {
+    background-image: url(img/Content_2/Back_Slide_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    width: 100%;
+    height: 300vh;
+    max-height: 2000px;
+}
+
+#container2 {
+    padding-top: 260px;
+    position: relative;
+}
+
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    min-width: 400px;
+    width: 75%;
+}
+
+.slider-container2 {
+    margin-top: 60px;
+}
+
+.kotak {
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 270px;
+    max-width: 800px;
+    background-color: #fffdd3;
+    border-color: #0042ff;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.kotak p {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 60px 62px 60px 62px;
+    line-height: 45px;
+}
+
+.kotakkecil {
+    display: block;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 230px;
+    max-width: 700px;
+    background-color: #fffdd3;
+    border-color: #0042ff;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.kotakkecil p {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    line-height: 34px;
+    padding: 50px 27px 40px;
+}
+
+.kotakkecil a {
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+
+#butkanan2, #butkiri2 {
+    position: absolute;
+    display: block;
+    width: 120%;
+    max-width: 45px;
+}
+
+#butkanan2 {
+    right: 90px;
+    top: 42%;
+    transform: translateY(-50%);
+}
+
+#butkiri2 {
+    left: 8%;
+    top: 42%;
+    transform: translateY(-50%);
+}
+
+
+#content3 {
+    background-image: url(img/Content_3/Back\ Slide\ 4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    width: 100%;
+    height: 400vh;
+    max-height: 2120px;
+}
+
+#slider-container3 {
+    padding-top: 20px;
+    position: relative;
+}
+
+#butkanan3, #butkiri3 {
+    position: absolute;
+    display: block;
+    width: 120%;
+    max-width: 45px;
+}
+
+#butkanan3 {
+    right: 90px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#butkiri3 {
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#judol {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 170px;
+    max-width: 500px;
+    min-width: 400px;
+    width: 75%;
+}
+
+#kotakan {
+    display: block;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 400px;
+    max-width: 800px;
+    background-color: #fffdd3;
+    border-color: #0042ff;
+    border-width: 4px;
+    border-style: solid;
+}
+
+#kotakan p {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 60px 62px 60px 62px;
+    line-height: 45px;
+}
+
+#kotakkecildua ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#button1, #button2 {
+    margin-top: 200px;
+    width: 100%;
+    height: 360px;
+    max-width: 500px;
+    background-color: #fffdd3;
+    border-color: #0042ff;
+    border-width: 4px;
+    border-style: solid;
+}
+
+#button1 {
+    border-right: 2px groove rgb(255, 255, 255);
+}
+
+#kotakkecildua p {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 23px;
+    line-height: 34px;
+    padding: 45px 27px 50px;
+}
+
+#kotakkecildua ul li p a {
+
+    width: 120%;
+    max-width: 193px;
+}
+
+#content4 {
+    background: url(img/Content_4/Back_Biru.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    width: 100%;
+    height: 1310vh;
+    max-width: 1550px;
+    max-height: 2370px;
+    margin-top: 0px;
+}
+
+#container4 {
+    background-image: url(img/Content_4/BUFFET.png), url(img/Content_4/Lengkungan.png);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    width: 100%;
+    height: 2000px;
+}
+
+#judulgambar {
+    margin-top: 150px;
+    width: 100%;
+    max-width: 1515px;
+}
+
+#slider-container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jjlagi {
+    display: block;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: -10px;
+    width: 100%;
+    height: 300px;
+    max-width: 1000px;
+    background-color: #fff728;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    transform: skew(-4deg);
+}
+
+#jjlagi p {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+    padding: 35px 62px 60px 62px;
+    line-height: 45px;
+}
+
+#jjkecil {
+    display: block;
+    margin-top: 300px;
+    margin-left: -20px;
+    margin-right: auto;
+    width: 100%;
+    height: 300px;
+    max-width: 1000px;
+    background-color: #fff728;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    transform: skew(-4deg);
+    z-index: 1;
+}
+
+#jjkecil p {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 45px;
+    padding: 80px 62px 60px 62px;
+    line-height: 65px;
+}
+
+#jjputih {
+    display: block;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 300px;
+    max-width: 1000px;
+    background-color: #ffffff;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    transform: skew(-4deg);
+    z-index: -1;
+}
+
+#jjputih p {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 60px 62px 60px 62px;
+    line-height: 45px;
+}
+
+.linebawah {
+    margin-top: 150px;
+    width: 100%;
+    max-width: 1515px;
+}
+
+#ending {
+    background-image: url(img/Penutup/長方形\ 43.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 1550px;
+    height: 500px;
+    margin-top: 210px;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+#buttonbesar {
+    margin-top: 40px;
+    width: 460px;
+}
+
+#buttonbesar a img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#buttonbesar a img:hover {
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+#buttonbesar p {
+    font-size: 18px;
+    line-height: 28px;
+    background: white;
+    padding: 20px;
+    border: 3px solid yellow;
+    border-radius: 12px;
+}
+
+#buttonbutton ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#buttonbutton li a img {
+    margin-top: 40px;
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+#buttonbutton li a img:hover {
+    transform: scale(1.15);
+    transition: 0.3s;
+}
